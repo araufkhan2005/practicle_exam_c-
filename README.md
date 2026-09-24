@@ -198,48 +198,7 @@ Abstract classes, pure virtual functions, inheritance, overriding, base-class po
 
 ![Q5 — Animal Polymorphism Output](output/q5.png)
 
-## 10. Compile and Run
-
-Open a terminal inside `prcaticle_exam`. Compile and run each program separately using the commands below.
-
-### Question 1
-
-```powershell
-g++ -std=c++11 q1_rectangle.cpp -o q1_rectangle.exe
-.\q1_rectangle.exe
-```
-
-### Question 2
-
-```powershell
-g++ -std=c++11 q2_employee.cpp -o q2_employee.exe
-.\q2_employee.exe
-```
-
-### Question 3
-
-```powershell
-g++ -std=c++11 q3_shape.cpp -o q3_shape.exe
-.\q3_shape.exe
-```
-
-### Question 4
-
-```powershell
-g++ -std=c++11 q4_polymorphism.cpp -o q4_polymorphism.exe
-.\q4_polymorphism.exe
-```
-
-### Question 5
-
-```powershell
-g++ -std=c++11 q5_animal.cpp -o q5_animal.exe
-.\q5_animal.exe
-```
-
-Do not compile all five source files into one executable: each file defines its own `main()` function.
-
-## 11. Example Inputs
+## 10. Example Inputs
 
 Questions 1, 3 and 5 use predefined objects and do not ask for input.
 
@@ -264,7 +223,7 @@ For Question 4, enter two shapes to demonstrate both derived classes:
 
 The resulting areas are `78.5` for the circle and `50` for the rectangle.
 
-## 12. Learning Outcomes
+## 11. Learning Outcomes
 
 After completing these programs, I learned:
 
@@ -277,11 +236,11 @@ After completing these programs, I learned:
 - How a base-class pointer calls the appropriate derived-class function.
 - How to release dynamically allocated objects and arrays.
 
-## 13. Current Scope
+## 12. Current Scope
 
 These programs are educational console demonstrations. Data is kept in memory and is not saved after exit. Numeric input is expected to be valid; comprehensive input validation is not implemented. Question 4 checks for a non-positive shape count and retries unsupported numeric menu choices.
 
-## 14. Assignment Information
+## 13. Assignment Information
 
 | Item | Details |
 | --- | --- |
@@ -292,10 +251,10 @@ These programs are educational console demonstrations. Data is kept in memory an
 | Output screenshots | 5 |
 | Main concepts | Encapsulation, inheritance, abstraction and polymorphism |
 
-## 15. Author
+## 14. Author
 
 **mohammed alikhan**
 
-## 16. Conclusion
+## 15. Conclusion
 
 This practical demonstrates core object-oriented programming concepts through Rectangle, Employee, Shape and Animal examples. The five programs show how private data, public methods, abstract classes and virtual functions work together to create reusable class hierarchies and demonstrate runtime polymorphism.
